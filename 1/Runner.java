@@ -17,9 +17,8 @@ class Runner {
                 String line;
                 while ((line = bf.readLine()) != null && !set.contains(total)) {
                     set.add(total);
-                    char sign = line.charAt(0);
-                    int value = Integer.parseInt(line.substring(1, line.length()));
-                    total += sign == '-' ? value * -1 : value;
+                    int value = Integer.parseInt(line);
+                    total += value;
                 }
             }
             catch (Exception e) {
