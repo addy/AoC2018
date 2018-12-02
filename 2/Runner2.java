@@ -7,8 +7,6 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
-import sun.jvm.hotspot.ci.ciArrayKlass;
-
 public class Runner2 {
     public static void main(String[] args) {
         List<String> list = new ArrayList<>();
